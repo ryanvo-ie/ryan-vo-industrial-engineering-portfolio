@@ -41,7 +41,7 @@ ORDER BY total_occurrences DESC;
 By building out frequency-based Pivot Tables in Microsoft Excel, an industrial 80/20 Pareto distribution is established. This data configuration isolates the exact defect categories that represent the "vital few" root causes behind the majority of manufacturing line disruptions.
 
 ### 📈 Manufacturing Defect Pareto Distribution:
-*(Placeholder: We will insert your Excel Pareto Chart screenshot image file here!)*
+*(Placeholder: Coming soon!)*
 
 ---
 
