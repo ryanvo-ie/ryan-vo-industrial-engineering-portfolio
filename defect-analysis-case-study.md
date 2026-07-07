@@ -14,9 +14,10 @@
 ## 🏢 1. Define & Measure (DMAIC Framework)
 In high-volume manufacturing environments like Caterpillar, minimizing defect rates and predicting repair overhead is essential to sustaining lean production lines. 
 
-* **The Problem:** Production anomalies lead to unpredictable material degradation, increased cycle times, and unplanned repair expenditures. 
-* **The Objective:** Leverage relational database structures (SQL) and exploratory programmatic visualization (Python) to identify high-frequency defect groupings and isolate process variation impacting plant profitability.
-* **The Data Scope:** Comprehensive analysis of quality control logs recording distinct product IDs, defect locations, inspection methodologies, severity tiers, and precise repair allocations.
+### 🎯 Project Objectives & Scope:
+* **Analyzed 5,000+ defect logs using SQL/Python to map severity and frequency patterns.**
+* **Isolated top 2 defects causing 80% of variation using Excel Pareto and Pivot Tables.**
+* **Utilized Python (Matplotlib/Seaborn) to track repair costs and prioritize line fixes.**
 
 ---
 
