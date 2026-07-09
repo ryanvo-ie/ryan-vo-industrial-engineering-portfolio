@@ -54,41 +54,55 @@ import sqlite3
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-# 1. Load data from local production file
-df = pd.read_csv("manufacturing_defects.csv")
+# Load the manufacturing defects dataset
+df = pd.read_csv("defects_data.csv")
 
-# 2. Establish in-memory database and populate quality logs
+# Store the dataset in an in-memory SQLite database
 conn = sqlite3.connect(":memory:")
 df.to_sql("quality_logs", conn, index=False, if_exists="replace")
 
-# 3. Execute data aggregations using standard SQL syntax
+# Aggregate defect frequency and repair cost using SQL
 sql_query = """
-SELECT 
-    defect_type, 
-    severity, 
-    COUNT(*) AS total_occurrences,
-    ROUND(AVG(repair_cost), 2) AS average_repair_cost
+SELECT
+    defect_type,
+    severity,
+    COUNT(*) AS total_occurrences,
+    ROUND(AVG(repair_cost), 2) AS average_repair_cost
 FROM quality_logs
 GROUP BY defect_type, severity
 ORDER BY total_occurrences DESC;
 """
+
 summary_df = pd.read_sql_query(sql_query, conn)
 
-# 4. Generate and save our process variation boxplot
+print("SQL Summary:")
+print(summary_df.head())
+
+# Create a boxplot showing repair cost variation
 sns.set_theme(style="whitegrid")
+
 plt.figure(figsize=(10, 5))
-sns.boxplot(data=df, x="severity", y="repair_cost", hue="defect_type", palette="muted")
+
+sns.boxplot(
+    data=df,
+    x="severity",
+    y="repair_cost",
+    hue="defect_type",
+    palette="muted"
+)
 
 plt.title("Defect Repair Cost Variation Across Severity Categories")
-plt.xlabel("Defect Severity Tiers")
-plt.ylabel("Associated Repair Cost (\$)")
+plt.xlabel("Defect Severity Tier")
+plt.ylabel("Associated Repair Cost ($)")
 plt.legend(title="Defect Type", bbox_to_anchor=(1.05, 1), loc="upper left")
+
 plt.tight_layout()
 
-# Export chart asset for our master portfolio documentation
+# Save the figure for the portfolio
 plt.savefig("repair_cost_variation.png", dpi=300)
 plt.show()
 ```
 
-### Process Variation Analysis Output:
+### Process Variation Analysis Output
+
 ![Defect Repair Cost Variation](repair_cost_variation.png)
