@@ -60,7 +60,8 @@ Industrial Engineering student with hands-on experience in process improvement, 
 ---
 
 ### Resume
-[Ryan Vo – Industrial Engineering Resume (PDF)](IE Updated Resume - AutoCAD.pdf)
+
+[Ryan Vo – Industrial Engineering Resume (PDF)](IE%20Updated%20Resume%20-%20AutoCAD.pdf)
 
 ---
 
