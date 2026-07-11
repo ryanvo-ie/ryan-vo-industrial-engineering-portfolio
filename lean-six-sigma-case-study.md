@@ -154,28 +154,56 @@ flowchart LR
     N --> O([End])
 ```
 ## Data Analysis
-This section presents quantitative analyses performed using the data collected throughout the study. Rather than relying solely on observations from individual logs, these analyses summarize trends across multiple production batches and identify opportunities for process improvement.
 
-### Overview
-Following the completion of the original twelve production trials, an additional validation batch was conducted using an improved data collection worksheet. Rather than introducing new process changes, this experiment focused on verifying the standardized workflow while demonstrating Industrial Engineering analysis techniques. The objective was to organize process measurements into a structured dataset that could be analyzed using Lean Six Sigma tools such as Pareto analysis.
+This section presents quantitative analyses performed using data collected throughout the crispy potato process improvement study. Rather than relying solely on observations from individual process logs, these analyses summarize process performance using structured Industrial Engineering techniques. Following the original twelve production trials, an additional validation batch (Batch #13) was conducted using an enhanced data collection worksheet designed specifically for quantitative analysis.
 
-### Objective
-Validate the standardized crispy potato process using an improved data collection method while demonstrating quantitative process analysis. This validation batch emphasizes objective measurement, process visualization, and data-driven decision making rather than introducing additional process modifications.
+### Validation Study (Batch #13)
 
-### Data Collection
-An improved data collection worksheet was developed to capture more detailed process information than the original logs.
-The worksheet records:
-* Batch number
-* Date
-* Material classification
-* Input quality rating
-* Potato quantity
-* Process step
-* Step start and end times
-* Stopwatch duration (seconds)
-* Input mass
-* Scrap mass
-* Yield percentage
+Unlike the previous twelve production logs, which focused on documenting process improvements and workflow observations, Batch #13 served as a validation study. The purpose of this batch was not to introduce new process modifications, but to demonstrate standardized data collection and apply Lean Six Sigma analysis tools to a controlled production run.
 
-This standardized format supports future statistical analysis and simplifies comparisons between production batches.
-(Insert your Batch #13 data table here.)
+The improved worksheet captured detailed process information including:
+
+- Batch Number
+- Date
+- Material Classification
+- Input Quality Rating
+- Potato Quantity
+- Process Step
+- Step Start Time
+- Step End Time
+- Stopwatch Duration
+- Stopwatch Duration (Seconds)
+- Input Mass
+- Scrap Mass
+- Yield Percentage
+
+### Batch #13 Summary
+
+| Metric | Value |
+|---------|------:|
+| Batch Number | 13 |
+| Material | Golden Potatoes |
+| Potato Quantity | 1 |
+| Input Quality | 3/5 |
+| Input Mass | 235 g |
+| Scrap Mass | 28 g |
+| Yield | 88.09% |
+| Total Cycle Time | 2053 sec |
+
+### Process Time Breakdown
+
+| Process Step | Time (sec) |
+|--------------|-----------:|
+| Frying | 1040 |
+| Final Drying | 330 |
+| Water Boiling | 300 |
+| Cutting | 158 |
+| Initial Drying | 120 |
+| Soaking | 60 |
+| Peeling | 45 |
+
+*(Insert Pareto Chart here.)*
+
+ **Supporting Document**
+
+- [Batch #13 Data Collection Sheet (PDF)](batch13-data-sheet.pdf)
