@@ -1,14 +1,14 @@
 # Lean Six Sigma Process Improvement
 
 ## Overview
-This project applies the Lean Six Sigma principles in order to improve the efficiency, as well as consistency, of a homemade crispy potato cooking process. Over numerous cooking experiemnts, different times of each step were recorded, bottlenecks were identified, and numerous workflow changes were tested in order to prevent any time being wasted, yet still maintaining product quality. [Crispy Potato Process Improvement Study](https://drive.google.com/drive/folders/11wcdyJ_9n11BDbFKttX3Tapga-7NwzLa)
+This project applies Lean Six Sigma principles to improve the efficiency and consistency of a homemade crispy potato cooking process. Across 12 structured trials and a final experimental 13th run, step durations were recorded and workflow adjustments were evaluated. Although frying time initially appeared to be the primary bottleneck due to its duration, deeper data analysis disproved this assumption. The final goal was to optimize line balance and minimize operator idle time while maintaining product quality. [Crispy Potato Process Improvement Study](https://drive.google.com/drive/folders/11wcdyJ_9n11BDbFKttX3Tapga-7NwzLa)
 
 ## DMAIC
 ### Define
 The original cooking process was inconsistent. Numerous problems included excessive frying time, larger batches requiring significantly more time, limited equipment capacity, and an inconsistent workflow between cooking sessions. Earlier attempts also produced potatoes that were often soggy, overly oily, and lacked consistent crispiness, demonstrating the need for a more standardized process.
 
 ### Measure
-A time study was conducted across twelve cooking experiments. Each trial recorded the duration of every major process step to establish a baseline, compare process variation, and identify where the greatest amount of time was being spent.
+A time study was conducted across thirteen cooking experiments. Each trial recorded the duration of every major process step to establish a baseline, compare process variation, and identify where the greatest amount of time was being spent.
 
 Steps:
 - Peeling
@@ -21,15 +21,15 @@ Steps:
 
 ### Analyze
 
-When comparring all twelve cooking logs, there were numerous recurring problems.
+When comparing all thirteen cooking logs, there were numerous recurring problems.
 
-The frying stage took the longest time, becoming the primary bottleneck. Having larger potato batches didn't help either, mainly because of the oil temperature recovering slower. It didn't help with the equipment limitations involved, mainly because of the fact I used smaller cooking pots, which hampered the process efficiency.
+While the frying stage took the longest time and initially appeared to be the primary bottleneck, data analysis disproved this assumption. Instead, the true system constraint was driven by batch size and thermal recovery limits. Having larger potato batches dropped the oil temperature, creating a cascading bottleneck. This was worsened by equipment limitations, specifically using smaller cooking pots, which hampered overall process efficiency.
 
-Additional observations also showed that organizing preparation steps and maintaining a consistent workflow helped reduce unnecessary waiting between stages.
+Additional observations also showed that organizing preparation steps and maintaining a consistent workflow helped minimize unnecessary waiting between stages.
 
 ### Improve
 
-Several process improvements were tested throughout the twelve cooking experiments.
+Several process improvements were tested throughout the thirteen cooking experiments.
 
 These improvements included:
 
@@ -48,9 +48,9 @@ The final process recommendations help maintain consistent product quality while
 
 Recommended standard practices include:
 
-- Limit each batch to two or three potatoes.
-- Always preheat the oil before frying.
-- Use a sufficiently large cooking pot.
+- Optimize batch sizes by limiting each batch to two or three potatoes.
+- Always preheat the oil before frying to ensure thermal recovery.
+- Use a sufficiently large cooking pot to prevent any capacity constraints.
 - Maintain consistent drying times before frying.
 - Follow the standardized cooking workflow developed throughout the study.
 
@@ -58,16 +58,16 @@ These recommendations reduce process variation while improving consistency and m
 
 ## Key Results
 
-- 12 documented cooking experiments
-- Complete time study of every major process step
-- Identified frying as the primary process bottleneck
-- Developed standardized cooking workflow
-- Reduced unnecessary energy usage by recommending smaller batch sizes
-- Applied Lean Six Sigma DMAIC methodology to a real-world process
+- 13 documented cooking trials: Conducted a 12-trial time study alongside a final, experimental 13th run.
+- Complete time study: Documented and evaluated every major process step to map baseline variations.
+- Isolated true constraints: Disproved frying time as the primary bottleneck, identifying batch size and thermal recovery as the true limits.
+- Developed a standardized, parallel cooking workflow to minimize operator idle time.
+- Recommended smaller batch sizes to optimize equipment capacity and reduce process variation.
+- Applied DMAIC methodology: Executed Lean Six Sigma principles within a real-world environment.
 
 ### Process Data Summary
 
-A total of twelve cooking experiments were conducted to evaluate how process changes affected preparation time, cooking efficiency, and overall workflow. Each experiment recorded the duration of every major process step, allowing bottlenecks and process improvements to be identified over time.
+A total of thirteen cooking experiments were conducted to evaluate how process changes affected preparation time, cooking efficiency, and overall workflow. Each experiment recorded the duration of every major process step, allowing bottlenecks and process improvements to be identified over time.
 
 #### Overall Time Study
 
@@ -85,6 +85,7 @@ A total of twelve cooking experiments were conducted to evaluate how process cha
 | #10 | 5 | 1:19:34 | 2:25:24 | Parallel workflow introduced |
 | #11 | 4 | 55:00 | 1:38:34 | Process flaws, successful outcome |
 | #12 | 6 | 1:09:10 | 1:59:57 | Smaller batches recommended |
+| #13 | 1 | 17:20 | 41:00 | Experimental run; isolated batch size as key driver |
 
 **Note:** In Log #10, the recorded total time includes overlapping vinegar-water boiling and post-boil drying activities. The actual elapsed ("wall-clock") time was somewhat shorter because these two tasks were performed in parallel.
 
@@ -99,19 +100,19 @@ A total of twelve cooking experiments were conducted to evaluate how process cha
 | Workflow | Overlapping boiling and drying reduced idle time. |
 | Standardized Process | Repeating the same workflow improved consistency across later experiments. |
 
-Overall, the collected data demonstrated that improvements to preparation stages reduced manual work, but system throughput remained constrained by the frying operation. Future process improvements should prioritize heat management, equipment capacity, and batch sizing to further reduce total cycle time.
+Overall, the collected data demonstrated that improvements to preparation stages minimized manual work, while the final experimental run proved that system throughput was ultimately constrained by batch size rather than frying time alone. Future process improvements should prioritize heat management, expanded equipment capacity, and optimized batch sizing to further reduce total cycle time.
 
 #### Bottleneck Analysis
 
-Throughout the twelve cooking experiments, several recurring bottlenecks were identified. While preparation times generally improved through practice and workflow refinement, the frying stage consistently limited the overall throughput of the process.
+Throughout the thirteen cooking experiments, several recurring bottlenecks were identified. While preparation times generally improved through practice and workflow refinement, the frying stage consistently limited the overall throughput of the process.
 
 | Process Step | Observation | Improvement Opportunity |
 |--------------|-------------|-------------------------|
-| Frying | Longest stage in every experiment and primary system bottleneck. | Improve oil temperature control, reduce batch size, or use larger equipment. |
+| Frying | Longest stage in every experiment; heavily dependent on oil temperature recovery. | Improve oil temperature control, optimize batch size, or use larger equipment. |
 | Vinegar-Water Boiling | Larger batches required multiple boiling cycles due to limited pot capacity. | Use a larger pot or reduce the number of potatoes per batch. |
 | Cutting | Early experiments showed high variation due to knife choice and technique. | Standardize cutting method and continue using the original knife. |
 | Drying | Longer drying improved crispiness but increased preparation time. | Determine the minimum effective drying time. |
-| Workflow Organization | Early logs contained idle time between stages. Later experiments introduced overlapping tasks to improve efficiency. | Continue using parallel preparation where practical. |
+| Workflow Organization | Early logs contained idle time between stages. Later experiments introduced overlapping tasks to balance the line. | Continue using parallel preparation to minimize operator idle time. |
 
 ### MOST Analysis
 
@@ -125,7 +126,7 @@ Although a complete MOST time standard was not developed for this project, sever
 - Loading and unloading potatoes from the frying pot
 - Organizing tools and workspace during preparation
 
-A future MOST analysis could establish standard times for each manual operation, identify unnecessary motions, and further reduce overall process time through improved work methods.
+A future MOST analysis could establish standard times for each manual operation, identify unnecessary motions, and further optimize line balance to minimize operator idle time through improved work methods.
 
 ## Process Maps
 
@@ -153,13 +154,37 @@ flowchart LR
     J --> K
     N --> O([End])
 ```
+
+```mermaid
+flowchart TD
+    A([Start]) --> B[Gather Ingredients]
+    B --> C[Peel Potatoes]
+    C --> D[Cut Potatoes]
+    D --> E[Soak in Salt Water]
+    E --> F[Initial Drying]
+    
+    subgraph Parallel_Workflows [Optimized Parallel Line Balance]
+        F --> G[Water Boiling]
+        F --> I[Preheat Canola Oil]
+    end
+
+    G --> H[Final Drying]
+    H & I --> J[Fry Potatoes]
+
+    subgraph CI[Continuous Improvement Analysis]
+        J --> K[Taste & Evaluate Quality] --> L[Isolate Batch-Size Bottlenecks]
+    end
+    
+    L --> O([End])
+```
+
 ## Data Analysis
 
-This section presents quantitative analyses performed using data collected throughout the crispy potato process improvement study. Rather than relying solely on observations from individual process logs, these analyses summarize process performance using structured Industrial Engineering techniques. Following the original twelve production trials, an additional validation batch (Batch #13) was conducted using an enhanced data collection worksheet designed specifically for quantitative analysis.
+This section presents quantitative analyses performed using data collected throughout the crispy potato process improvement study. Rather than relying solely on observations from individual process logs, these analyses summarize process performance using structured Industrial Engineering techniques. Following the original twelve production trials, an additional experimental run (Log #13) was conducted to evaluate batch-size optimization, test parallel line balancing, and isolate system constraints using an enhanced data collection worksheet.
 
 ### Validation Study (Batch #13)
 
-Unlike the previous twelve production logs, which focused on documenting process improvements and workflow observations, Batch #13 served as a validation study. The purpose of this batch was not to introduce new process modifications, but to demonstrate standardized data collection and apply Lean Six Sigma analysis tools to a controlled production run.
+Unlike the previous twelve production logs, which focused on documenting baseline process variations, Batch #13 served as a final experimental run. The purpose of this batch was to demonstrate standardized data collection, evaluate batch-size optimization, and apply Lean Six Sigma analysis tools to isolate final system constraints.
 
 The improved worksheet captured detailed process information including:
 
@@ -190,6 +215,8 @@ The improved worksheet captured detailed process information including:
 | Yield | 88.09% |
 | Total Cycle Time | 2053 sec |
 
+Note: The Total Cycle Time of 2,053 seconds (34:13) reflects the active processing time. The total elapsed wall-clock time was 41:00, accounting for brief handling delays between process steps.
+
 ### Process Time Breakdown
 
 | Process Step | Time (sec) |
@@ -208,15 +235,11 @@ The improved worksheet captured detailed process information including:
 
 ### Pareto Analysis
 
-The Batch #13 validation study used Pareto analysis to quantify how total process time was distributed across the standardized workflow. Unlike the first twelve production logs, this batch focused on validating the process using an improved data collection worksheet rather than introducing additional workflow changes.
+The Batch #13 experimental run used Pareto analysis to quantify how total process time was distributed across the optimized workflow. The results perfectly demonstrate the Pareto Principle (80/20 Rule). Frying accounted for 1,040 seconds (50.66%) of the total process time. Combined with Final Drying and Water Boiling, these three operations represented 81.34% of the total active cycle time. In contrast, the manual preparation steps contributed less than 20%, proving that optimizing minor preparation tasks alone would have a limited impact on system capacity.
 
-The results demonstrate the Pareto Principle (80/20 Rule). Frying accounted for 1,040 seconds (50.66%) of the total measured process time. Combined with Final Drying and Water Boiling, these three operations represented 81.34% of the total active cycle time. In contrast, the remaining preparation steps contributed less than 20%, indicating that optimizing minor preparation tasks alone would have limited impact on overall process efficiency.
+### Experimental Run Analysis (Batch #13)
 
-### Validation Study (Batch #13)
-
-Batch #13 served as a single-potato validation study designed to reduce variation associated with handling multiple potatoes. Rather than testing new improvements, this experiment verified that the standardized workflow developed during the original twelve trials could be measured consistently using an enhanced Industrial Engineering data collection format.
-
-Compared with earlier production batches, preparation stages required substantially less time while following the same standardized workflow, supporting the conclusion that much of the observed variation in previous experiments was influenced by increased batch size.
+Batch #13 served as a single-potato experimental run designed to isolate process variation. Rather than repeating previous trials, this experiment verified that the standardized parallel workflow could be measured consistently using an enhanced Industrial Engineering data collection format. Compared with earlier production batches, preparation stages required substantially less time, supporting the conclusion that much of the observed variation in previous experiments was heavily driven by batch size and thermal recovery limits.
 
 ### Waiting Time Analysis
 
@@ -226,12 +249,10 @@ Comparing active process time with the overall production timeline identified an
 * Elapsed wall-clock time: 2,460 seconds
 * Non-value-added waiting time: 407 seconds
 
-These transition periods represent opportunities to reduce unnecessary waiting through improved workflow organization and standardized task sequencing. Future studies will incorporate continuous timestamp logging to better quantify these intervals.
+These transition periods represent opportunities to further minimize operator idle time through tighter workflow organization and standardized task sequencing.
 
 ### Process Constraint Evaluation
 
-Although Frying represented the largest portion of total process time, the longest activity is not necessarily the system bottleneck.
+Although Frying represented the largest portion of total process time, the longest activity is not necessarily the system bottleneck. From an Industrial Engineering perspective, a true bottleneck is the process that limits overall throughput.
 
-From an Industrial Engineering perspective, a true bottleneck is the process that limits overall throughput. Determining that constraint requires evaluating equipment capacity, batch size, and production flow—not simply the duration of a single operation.
-
-Because Batch #13 was conducted as a controlled single-potato validation, it establishes a reliable baseline for future studies involving throughput analysis, takt time calculations, workstation balancing, and larger production batches.
+Because Batch #13 was conducted as a single-potato run, it successfully isolated the baseline processing capacity. By comparing this data against the massive delays seen in larger trials (like Log #6), it proved that the ultimate system bottleneck was not the frying time itself, but rather batch size and oil thermal recovery limits. This insight provides a reliable baseline for future workstation balancing, takt time calculations, and larger production batches.
