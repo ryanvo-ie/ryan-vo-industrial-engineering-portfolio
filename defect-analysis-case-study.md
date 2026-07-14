@@ -13,11 +13,11 @@
 <br>
 
 ## 1. Define & Measure (DMAIC Framework)
-In high-volume manufacturing environments, minimizing defect rates and repair costs is essential for improving product quality and reducing waste. This project analyzes manufacturing defect data using SQL, Python, and Excel to identify defect trends and support process improvement decisions. 
+In high-volume manufacturing environments, minimizing defect rates and repair costs is essential for improving product quality and reducing waste. This project analyzes manufacturing defect data using SQL, Python, and Google Sheets to identify defect trends and support process improvement decisions. 
 
 ### Project Objectives & Scope:
 * **Analyzed 5,000+ defect logs using SQL/Python to map severity and frequency patterns.**
-* **Isolated top 2 defects causing 80% of variation using Excel Pareto and Pivot Tables.**
+* **Isolated top 2 defects causing 80% of variation using Google Sheet Pareto and Pivot Tables.**
 * **Used Python to analyze manufacturing defect data and create visualizations.**
 
 ## 2. Data Engineering & Relational SQL Aggregations
@@ -37,8 +37,8 @@ ORDER BY total_occurrences DESC;
 
 ---
 
-## 3. Pareto Principle Modeling (Excel Analysis)
-Pivot Tables and Pareto charts were created in Microsoft Excel to apply the 80/20 principle. This analysis identified the defect categories that contributed most to overall process variation.
+## 3. Pareto Principle Modeling (Google Sheets Analysis)
+Pivot Tables and Pareto charts were created in Google Sheets to apply the 80/20 principle. This analysis identified the defect categories that contributed most to overall process variation.
 
 ### Manufacturing Defect Pareto Distribution
 ![Manufacturing Defect Pareto Chart](manufacturing_defect_pareto_chart.png)
