@@ -28,9 +28,9 @@ Industrial Engineering student with hands-on experience in process improvement, 
 
 ### 1. Lean Six Sigma Process Improvement
 **June 2026**
-* Applied DMAIC methodology to reduce cycle time by **15%**.
-* Conducted MOST studies and process mapping to identify and quantify operational waste.
-* Analyzed performance data using PostgreSQL and Python.
+* Applied the DMAIC framework to analyze a manufacturing process and identify improvement opportunities.
+* Used MOST studies and process mapping to identify non-value-added activities.
+* Analyzed process data using PostgreSQL and Python.
 
 **Tools:** DMAIC, MOST, PostgreSQL, Python
 🔗 **[View Full Case Study & Methodology](lean-six-sigma-case-study.md)**
@@ -53,7 +53,7 @@ Industrial Engineering student with hands-on experience in process improvement, 
 - Performed MOST time studies on pen assembly to establish standard times  
 - Identified motion waste and non-value-added steps in Crop Duster simulation using Therbligs  
 - Optimized paper plane production line through bottleneck analysis and line balancing  
-- Designed facility layout using decision matrices for equipment placement  
+- Evaluated facility layout alternatives using decision matrices.  
 
 **Tools:** MOST, Therbligs, Line Balancing, Decision Matrices
 
