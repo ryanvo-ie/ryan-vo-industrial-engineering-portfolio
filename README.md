@@ -13,7 +13,7 @@ Industrial Engineering student with hands-on experience in process improvement, 
 
 **Technical Skills:**  
 - **Industrial Engineering:** Lean Manufacturing, DMAIC, MOST, Process Mapping, Line Balancing  
-- **Data & Analytics:** Python (Pandas, NumPy, Matplotlib), SQL (PostgreSQL), Excel (Pivot Tables, Pareto Analysis)
+- **Data & Analytics:** Python (Pandas, NumPy, Matplotlib), SQL (PostgreSQL), Google Sheets (Pivot Tables, Pareto Analysis)
 
 ---
 
@@ -40,10 +40,10 @@ Industrial Engineering student with hands-on experience in process improvement, 
 ### 2. Predictive Defect & Quality Analytics
 **July 2026**
 * Developed Python/SQL scripts to analyze **5,000+** quality logs and identify defect patterns.
-* Conducted Pareto analysis in Excel to isolate top 2 defects causing **80%** of process variation.
+* Conducted Pareto analysis in Google Sheets to isolate top 2 defects causing **80%** of process variation.
 * Built automated Python visualizations to track costs and prioritize improvements.
 
-**Tools:** Python, SQL, Excel (Pareto Analysis)
+**Tools:** Python, SQL, Google Sheet (Pareto Analysis)
 🔗 **[View Full Case Study & Code Analysis](defect-analysis-case-study.md)**
 
 ---
