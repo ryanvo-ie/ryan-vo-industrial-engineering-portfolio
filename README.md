@@ -13,7 +13,7 @@ Industrial Engineering student with hands-on experience in process improvement, 
 
 **Technical Skills:**  
 - **Industrial Engineering:** Lean Manufacturing, DMAIC, MOST, Process Mapping, Line Balancing  
-- **Data & Analytics:** Python (Pandas, NumPy, Matplotlib, Seaborn), SQL (PostgreSQL), Excel (Pivot Tables, Pareto Analysis)
+- **Data & Analytics:** Python (Pandas, NumPy, Matplotlib), SQL (PostgreSQL), Excel (Pivot Tables, Pareto Analysis)
 
 ---
 
