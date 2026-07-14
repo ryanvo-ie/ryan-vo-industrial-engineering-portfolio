@@ -1,7 +1,7 @@
-# Lean Six Sigma Process Improvement
+# Lean Six Sigma Process Improvement Study
 
 ## Overview
-This project applies Lean Six Sigma principles to improve the efficiency and consistency of a homemade crispy potato cooking process. Across 12 structured trials and a final experimental 13th run, step durations were recorded and workflow adjustments were evaluated. Although frying time initially appeared to be the primary bottleneck due to its duration, deeper data analysis disproved this assumption. The final goal was to optimize line balance and minimize operator idle time while maintaining product quality. [Crispy Potato Process Improvement Study](https://drive.google.com/drive/folders/11wcdyJ_9n11BDbFKttX3Tapga-7NwzLa)
+This project applies Lean Six Sigma principles to improve the consistency and efficiency of a homemade crispy potato cooking process. Across thirteen cooking trials, process times were recorded, workflow changes were evaluated, and bottlenecks were analyzed using the DMAIC framework. [Crispy Potato Process Improvement Study](https://drive.google.com/drive/folders/11wcdyJ_9n11BDbFKttX3Tapga-7NwzLa)
 
 ## DMAIC
 ### Define
@@ -60,7 +60,7 @@ These recommendations reduce process variation while improving consistency and m
 
 - 13 documented cooking trials: Conducted a 12-trial time study alongside a final, experimental 13th run.
 - Complete time study: Documented and evaluated every major process step to map baseline variations.
-- Isolated true constraints: Disproved frying time as the primary bottleneck, identifying batch size and thermal recovery as the true limits.
+- Identified batch size and oil thermal recovery as the primary process constraints through comparative analysis.
 - Developed a standardized, parallel cooking workflow to minimize operator idle time.
 - Recommended smaller batch sizes to optimize equipment capacity and reduce process variation.
 - Applied DMAIC methodology: Executed Lean Six Sigma principles within a real-world environment.
@@ -237,7 +237,7 @@ Note: The Total Cycle Time of 2,053 seconds (34:13) reflects the active processi
 
 The Batch #13 experimental run used Pareto analysis to quantify how total process time was distributed across the optimized workflow. The results perfectly demonstrate the Pareto Principle (80/20 Rule). Frying accounted for 1,040 seconds (50.66%) of the total process time. Combined with Final Drying and Water Boiling, these three operations represented 81.34% of the total active cycle time. In contrast, the manual preparation steps contributed less than 20%, proving that optimizing minor preparation tasks alone would have a limited impact on system capacity.
 
-### Experimental Run Analysis (Batch #13)
+### Batch #13 Analysis
 
 Batch #13 served as a single-potato experimental run designed to isolate process variation. Rather than repeating previous trials, this experiment verified that the standardized parallel workflow could be measured consistently using an enhanced Industrial Engineering data collection format. Compared with earlier production batches, preparation stages required substantially less time, supporting the conclusion that much of the observed variation in previous experiments was heavily driven by batch size and thermal recovery limits.
 
@@ -251,7 +251,7 @@ Comparing active process time with the overall production timeline identified an
 
 These transition periods represent opportunities to further minimize operator idle time through tighter workflow organization and standardized task sequencing.
 
-### Process Constraint Evaluation
+### Constraint Analysis
 
 Although Frying represented the largest portion of total process time, the longest activity is not necessarily the system bottleneck. From an Industrial Engineering perspective, a true bottleneck is the process that limits overall throughput.
 
