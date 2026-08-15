@@ -207,15 +207,6 @@ The following formula was entered in cell D2:
 
 The formula was then filled down through D6.
 
-This produced:
-| Failure Type | Count | Percentage | Cumulative Percentage |
-|---|---:|---:|---:|
-| HDF | 115 | 30.83% | 30.83% |
-| OSF | 98 | 26.27% | 57.10% |
-| PWF | 95 | 25.47% | 82.57% |
-| TWF | 46 | 12.33% | 94.91% |
-| RNF | 19 | 5.09% | 100.00% |
-
 **Calculation Note**: An initial cumulative calculation totaled 99.99% due to rounding individual percentages to two decimal places. To avoid this rounding discrepancy, cumulative percentages were recalculated directly from the original failure counts, resulting in a final cumulative value of 100.00%.
 
 #### Excel Pareto Chart
