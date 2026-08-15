@@ -228,14 +228,12 @@ The Pareto analysis was visualized independently in both **Jupyter Notebook** an
 
 The Python visualization was created using Matplotlib, with failure counts represented by bars and cumulative percentage represented by a secondary line.
 
-**Pareto Chart Below:**
 ![Jupyter Notebook Pareto Chart](predictive_maintenance_analysis_jupyter_notebook.png)
 
 ### Microsoft Excel Pareto Chart
 
 The Excel visualization was created as a Combo Chart using the calculated failure counts and cumulative percentages from the Pareto_Analysis worksheet.
 
-**Excel Sheet & Pareto Chart Below:**
 ![Excel Pareto Chart](predictive_maintenance_analysis_excel.png)
 
 ### Results Comparison
