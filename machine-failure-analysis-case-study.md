@@ -28,6 +28,10 @@ In manufacturing environments, unexpected machine failures can lead to productio
 
 The AI4I 2020 Predictive Maintenance dataset was downloaded from Kaggle as a CSV file and imported into a PostgreSQL database using pgAdmin 4. A dedicated table, predictive_maintenance, was created to organize the 14 dataset variables and prepare the data for SQL and Python analysis.
 
+### Dataset Download & File Preparation
+
+The `ai4i2020.csv` dataset was downloaded from Kaggle as a CSV file and moved to the Mac shared directory at `/Users/Shared/`. This provided a consistent file location before importing the dataset into PostgreSQL through pgAdmin 4.
+
 ### PostgreSQL Table Creation
 
 The following SQL statement was used to create the table and assign appropriate data types to each variable:
