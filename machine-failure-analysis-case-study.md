@@ -26,15 +26,17 @@ In manufacturing environments, unexpected machine failures can lead to productio
 
 ## 2. Data Import & PostgreSQL Setup
 
-The AI4I 2020 Predictive Maintenance dataset was downloaded from Kaggle as a CSV file and imported into a PostgreSQL database using pgAdmin 4. A dedicated table, predictive_maintenance, was created to organize the 14 dataset variables and prepare the data for SQL and Python analysis.
+The AI4I 2020 Predictive Maintenance dataset was downloaded from Kaggle as a CSV file and imported into a PostgreSQL database using pgAdmin 4. A dedicated table, `predictive_maintenance`, was created to organize the 14 dataset variables and prepare the data for SQL and Python analysis.
 
 ### Dataset Download & File Preparation
 
-The `ai4i2020.csv` dataset was downloaded from Kaggle as a CSV file and moved to the Mac shared directory at `/Users/Shared/`. This provided a consistent file location before importing the dataset into PostgreSQL through pgAdmin 4.
+The `ai4i2020.csv` dataset was downloaded from Kaggle and reviewed as the source file for the project. Before working with the data in PostgreSQL, the CSV file was moved to the Mac shared directory at `/Users/Shared/`. Keeping the dataset in this location provided a consistent file path that could be referenced during the pgAdmin 4 import process and later Python analysis.
 
 ### PostgreSQL Table Creation
 
-The following SQL statement was used to create the table and assign appropriate data types to each variable:
+Before importing the CSV file, a new table named `predictive_maintenance` was created in the `factory_db` PostgreSQL database. The table structure was designed to correspond with the 14 variables contained in the original AI4I dataset. Appropriate PostgreSQL data types were assigned based on the type of information stored in each column, including integers for machine identifiers and failure indicators, numeric fields for continuous operating measurements, and character fields for product information.
+
+The following SQL statement was used to create the table:
 
 ```sql
 CREATE TABLE predictive_maintenance (
