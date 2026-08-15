@@ -168,15 +168,15 @@ The Pareto analysis was recreated in Microsoft Excel using a separate Pareto_Ana
 
 Because each failure column in the original dataset is binary (1 = failure occurred, 0 = failure did not occur), the SUM function was used to calculate the number of occurrences for each failure type.
 
-HDF: =SUM(Raw_Data!K:K)
+* **HDF: =SUM(Raw_Data!K:K)**
 
-OSF: =SUM(Raw_Data!M:M)
+* **OSF: =SUM(Raw_Data!M:M)**
 
-PWF: =SUM(Raw_Data!L:L)
+* **PWF: =SUM(Raw_Data!L:L)**
 
-TWF: =SUM(Raw_Data!J:J)
+* **TWF: =SUM(Raw_Data!J:J)**
 
-RNF: =SUM(Raw_Data!N:N)
+* **RNF: =SUM(Raw_Data!N:N)**
 
 This produced the following failure counts:
 
@@ -193,7 +193,7 @@ This produced the following failure counts:
 Each failure count was divided by the total number of recorded failure-type occurrences. The result was multiplied by 100 and rounded to two decimal places.
 The following formula was entered in cell C2:
 
-=ROUND(B2/SUM($B$2:$B$6)*100,2)
+* **=ROUND(B2/SUM($B$2:$B$6)*100,2)**
 
 The formula was then filled down through C6.
 The $ symbols create an absolute reference, keeping the total range B2:B6 fixed while the individual failure-count reference changes for each row.
@@ -203,7 +203,7 @@ The $ symbols create an absolute reference, keeping the total range B2:B6 fixed 
 Cumulative percentages were calculated directly from the original failure counts rather than by adding the already-rounded percentages. This prevents rounding errors and ensures that the final cumulative percentage reaches exactly 100%.
 The following formula was entered in cell D2:
 
-=ROUND(SUM($B$2:B2)/SUM($B$2:$B$6)*100,2)
+* **=ROUND(SUM($B$2:B2)/SUM($B$2:$B$6)*100,2)**
 
 The formula was then filled down through D6.
 
@@ -211,10 +211,10 @@ The formula was then filled down through D6.
 
 A Combo Chart was created from the completed analysis table:
 
-* Failure Count was displayed as a clustered column series.
-* Cumulative Percentage was displayed as a line series.
-* The cumulative-percentage line was assigned to a secondary vertical axis ranging from 0% to 100%.
-* Failure types were arranged from highest to lowest occurrence: HDF, OSF, PWF, TWF, and RNF.
+* **Failure Count was displayed as a clustered column series.**
+* **Cumulative Percentage was displayed as a line series.**
+* **The cumulative-percentage line was assigned to a secondary vertical axis ranging from 0% to 100%.**
+* **Failure types were arranged from highest to lowest occurrence: HDF, OSF, PWF, TWF, and RNF.**
 
 The resulting Excel Pareto chart reproduced the same failure distribution identified through the Python analysis.
 
