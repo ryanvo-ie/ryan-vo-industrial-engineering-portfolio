@@ -191,9 +191,7 @@ This produced the following failure counts:
 #### Failure Percentage
 
 Each failure count was divided by the total number of recorded failure-type occurrences. The result was multiplied by 100 and rounded to two decimal places.
-The following formula was entered in cell C2:
-
-* **=ROUND(B2/SUM($B$2:$B$6)*100,2)**
+The following formula was entered in cell C2: =ROUND(B2/SUM($B$2:$B$6)*100,2)
 
 The formula was then filled down through C6.
 The $ symbols create an absolute reference, keeping the total range B2:B6 fixed while the individual failure-count reference changes for each row.
@@ -201,9 +199,7 @@ The $ symbols create an absolute reference, keeping the total range B2:B6 fixed 
 #### Cumulative Percentage
 
 Cumulative percentages were calculated directly from the original failure counts rather than by adding the already-rounded percentages. This prevents rounding errors and ensures that the final cumulative percentage reaches exactly 100%.
-The following formula was entered in cell D2:
-
-* **=ROUND(SUM($B$2:B2)/SUM($B$2:$B$6)*100,2)**
+The following formula was entered in cell D2: ROUND(SUM($B$2:B2)/SUM($B$2:$B$6)*100,2)
 
 The formula was then filled down through D6.
 
