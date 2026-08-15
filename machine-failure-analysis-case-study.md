@@ -164,7 +164,7 @@ plt.show()
 
 The Pareto analysis was recreated in Microsoft Excel using a separate Pareto_Analysis worksheet. The original dataset remained unchanged in the Raw_Data worksheet, while Excel formulas were used to calculate failure counts, percentages, and cumulative percentages.
 
-### Failure Count
+#### Failure Count
 
 Because each failure column in the original dataset is binary (1 = failure occurred, 0 = failure did not occur), the SUM function was used to calculate the number of occurrences for each failure type.
 
@@ -188,7 +188,7 @@ This produced the following failure counts:
 | TWF | 46 |
 | RNF | 19 |
 
-### Failure Percentage
+#### Failure Percentage
 
 Each failure count was divided by the total number of recorded failure-type occurrences. The result was multiplied by 100 and rounded to two decimal places.
 The following formula was entered in cell C2:
@@ -198,7 +198,7 @@ The following formula was entered in cell C2:
 The formula was then filled down through C6.
 The $ symbols create an absolute reference, keeping the total range B2:B6 fixed while the individual failure-count reference changes for each row.
 
-### Cumulative Percentage
+#### Cumulative Percentage
 
 Cumulative percentages were calculated directly from the original failure counts rather than by adding the already-rounded percentages. This prevents rounding errors and ensures that the final cumulative percentage reaches exactly 100%.
 The following formula was entered in cell D2:
@@ -216,7 +216,7 @@ This produced:
 | TWF | 46 | 12.33% | 94.91% |
 | RNF | 19 | 5.09% | 100.00% |
 
-### Excel Pareto Chart
+#### Excel Pareto Chart
 
 A Combo Chart was created from the completed analysis table:
 
