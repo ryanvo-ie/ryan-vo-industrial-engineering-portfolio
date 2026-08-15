@@ -207,8 +207,6 @@ The following formula was entered in cell D2:
 
 The formula was then filled down through D6.
 
-**Calculation Note**: An initial cumulative calculation totaled 99.99% due to rounding individual percentages to two decimal places. To avoid this rounding discrepancy, cumulative percentages were recalculated directly from the original failure counts, resulting in a final cumulative value of 100.00%.
-
 #### Excel Pareto Chart
 
 A Combo Chart was created from the completed analysis table:
@@ -252,3 +250,6 @@ This produced:
 The cumulative percentage crossed the 80% threshold after PWF, meaning that HDF, OSF, and PWF collectively accounted for approximately 82.57% of recorded failure-type occurrences.
 
 The agreement between the Python and Excel results provides a cross-check of the analysis while demonstrating the ability to perform the same Pareto methodology using both programming-based and spreadsheet-based tools.
+
+
+**Calculation Note**: An initial cumulative calculation totaled 99.99% due to rounding individual percentages to two decimal places. To avoid this rounding discrepancy, cumulative percentages were recalculated directly from the original failure counts, resulting in a final cumulative value of 100.00%.
