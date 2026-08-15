@@ -216,6 +216,8 @@ This produced:
 | TWF | 46 | 12.33% | 94.91% |
 | RNF | 19 | 5.09% | 100.00% |
 
+**Calculation Note**: An initial cumulative calculation totaled 99.99% due to rounding individual percentages to two decimal places. To avoid this rounding discrepancy, cumulative percentages were recalculated directly from the original failure counts, resulting in a final cumulative value of 100.00%.
+
 #### Excel Pareto Chart
 
 A Combo Chart was created from the completed analysis table:
