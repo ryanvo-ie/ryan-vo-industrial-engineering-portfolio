@@ -20,7 +20,7 @@ In manufacturing environments, unexpected machine failures can lead to productio
 ### Project Objectives & Scope:
 
 * **Analyzed 10,000 machine records using PostgreSQL and Python/Pandas to examine equipment performance and failure patterns.**
-* **Compared five machine failure types—TWF, HDF, PWF, OSF, and RNF—to determine which failure modes occurred most frequently.**
+* **Compared five machine failure types—TWF (Tool Wear Failure), HDF (Heat Dissipation Failure), PWF (Power Failure), OSF (Overstrain Failure), and RNF (Random Failure)—to determine which failure modes occurred most frequently.**
 * **Created a Pareto analysis in Python/Matplotlib to identify the failure types contributing the largest share of recorded failure occurrences.**
 * **Explored operating variables such as tool wear, torque, rotational speed, and temperature to investigate their relationship with machine failures.**
 
